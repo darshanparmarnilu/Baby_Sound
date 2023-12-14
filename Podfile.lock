@@ -1,0 +1,28 @@
+PODS:
+  - BubbleShowCase (1.2.0)
+  - Hover (2.1.0)
+  - lottie-ios (4.2.0)
+  - SwiftyGif (5.4.4)
+
+DEPENDENCIES:
+  - BubbleShowCase
+  - Hover
+  - lottie-ios
+  - SwiftyGif
+
+SPEC REPOS:
+  trunk:
+    - BubbleShowCase
+    - Hover
+    - lottie-ios
+    - SwiftyGif
+
+SPEC CHECKSUMS:
+  BubbleShowCase: a49a216f1e1373399060c41c1c599f91b77ce6bd
+  Hover: b7821338bdaf54d0e46be24d603e443a869993e3
+  lottie-ios: 809ecf2d460ed650a6aed7aa88b2ec45fab4779c
+  SwiftyGif: 93a1cc87bf3a51916001cf8f3d63835fb64c819f
+
+PODFILE CHECKSUM: ffbf5316897c8ccaa9a9ead17e8605a2ecc71b68
+
+COCOAPODS: 1.12.1

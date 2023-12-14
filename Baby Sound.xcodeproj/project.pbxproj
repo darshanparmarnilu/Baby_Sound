@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93587D9F2AA87CE60086E7FA /* BabySplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93587D9E2AA87CE60086E7FA /* BabySplashVC.swift */; };
+		9358AC762AAF067E004886C3 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9358AC752AAF067E004886C3 /* TestViewController.swift */; };
+		936607D42AB0311D002CD250 /* NotchTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936607D32AB0311D002CD250 /* NotchTipsViewController.swift */; };
+		93778F242A94B3990079A920 /* 130718-baby.gif in Resources */ = {isa = PBXBuildFile; fileRef = 93778F232A94B3990079A920 /* 130718-baby.gif */; };
+		939E02682A98BDE00031BAEE /* animation_llqgjsmq.json in Resources */ = {isa = PBXBuildFile; fileRef = 939E02672A98BDE00031BAEE /* animation_llqgjsmq.json */; };
+		93FAB0A92A93275A00402C14 /* FloatingOnTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FAB0A82A93275A00402C14 /* FloatingOnTableViewController.swift */; };
+		93FAB0AC2A93360E00402C14 /* ShowImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FAB0AB2A93360E00402C14 /* ShowImageTableViewCell.swift */; };
+		A31393F22A8CE607003B043F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31393F12A8CE607003B043F /* AppDelegate.swift */; };
+		A31393F42A8CE607003B043F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31393F32A8CE607003B043F /* SceneDelegate.swift */; };
+		A31393F92A8CE607003B043F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31393F72A8CE607003B043F /* Main.storyboard */; };
+		A31393FB2A8CE60A003B043F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31393FA2A8CE60A003B043F /* Assets.xcassets */; };
+		A31393FE2A8CE60A003B043F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31393FC2A8CE60A003B043F /* LaunchScreen.storyboard */; };
+		B9E2CFCD400DB96FF619592A /* Pods_Baby_Sound.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3BED40DADD5440081020D6 /* Pods_Baby_Sound.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		159B4C74666D9A8213FD9A03 /* Pods-Baby Sound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baby Sound.debug.xcconfig"; path = "Target Support Files/Pods-Baby Sound/Pods-Baby Sound.debug.xcconfig"; sourceTree = "<group>"; };
+		337F394D525D69C460B70355 /* Pods-Baby Sound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baby Sound.release.xcconfig"; path = "Target Support Files/Pods-Baby Sound/Pods-Baby Sound.release.xcconfig"; sourceTree = "<group>"; };
+		8B3BED40DADD5440081020D6 /* Pods_Baby_Sound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baby_Sound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93587D9E2AA87CE60086E7FA /* BabySplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabySplashVC.swift; sourceTree = "<group>"; };
+		9358AC752AAF067E004886C3 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		936607D32AB0311D002CD250 /* NotchTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchTipsViewController.swift; sourceTree = "<group>"; };
+		93778F232A94B3990079A920 /* 130718-baby.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "130718-baby.gif"; sourceTree = "<group>"; };
+		939E02672A98BDE00031BAEE /* animation_llqgjsmq.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_llqgjsmq.json; sourceTree = "<group>"; };
+		93FAB0A82A93275A00402C14 /* FloatingOnTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingOnTableViewController.swift; sourceTree = "<group>"; };
+		93FAB0AB2A93360E00402C14 /* ShowImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageTableViewCell.swift; sourceTree = "<group>"; };
+		A31393EE2A8CE607003B043F /* Baby Sound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baby Sound.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31393F12A8CE607003B043F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A31393F32A8CE607003B043F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A31393F82A8CE607003B043F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A31393FA2A8CE60A003B043F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A31393FD2A8CE60A003B043F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A31393FF2A8CE60A003B043F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A31393EB2A8CE607003B043F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E2CFCD400DB96FF619592A /* Pods_Baby_Sound.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064BBD69F21C4FEE7A4FAA05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				159B4C74666D9A8213FD9A03 /* Pods-Baby Sound.debug.xcconfig */,
+				337F394D525D69C460B70355 /* Pods-Baby Sound.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4BFEACA0502F12D37EB57852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B3BED40DADD5440081020D6 /* Pods_Baby_Sound.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93778F212A94A7780079A920 /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				93778F232A94B3990079A920 /* 130718-baby.gif */,
+				939E02672A98BDE00031BAEE /* animation_llqgjsmq.json */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		93FAB0AA2A93285800402C14 /* TableView Floating */ = {
+			isa = PBXGroup;
+			children = (
+				93FAB0A82A93275A00402C14 /* FloatingOnTableViewController.swift */,
+				93FAB0AB2A93360E00402C14 /* ShowImageTableViewCell.swift */,
+				93587D9E2AA87CE60086E7FA /* BabySplashVC.swift */,
+			);
+			path = "TableView Floating";
+			sourceTree = "<group>";
+		};
+		A31393E52A8CE607003B043F = {
+			isa = PBXGroup;
+			children = (
+				936607D32AB0311D002CD250 /* NotchTipsViewController.swift */,
+				A31393F02A8CE607003B043F /* Baby Sound */,
+				A31393EF2A8CE607003B043F /* Products */,
+				064BBD69F21C4FEE7A4FAA05 /* Pods */,
+				4BFEACA0502F12D37EB57852 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A31393EF2A8CE607003B043F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A31393EE2A8CE607003B043F /* Baby Sound.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A31393F02A8CE607003B043F /* Baby Sound */ = {
+			isa = PBXGroup;
+			children = (
+				93778F212A94A7780079A920 /* Resourse */,
+				A31393F12A8CE607003B043F /* AppDelegate.swift */,
+				A31393F32A8CE607003B043F /* SceneDelegate.swift */,
+				A31393F72A8CE607003B043F /* Main.storyboard */,
+				9358AC752AAF067E004886C3 /* TestViewController.swift */,
+				93FAB0AA2A93285800402C14 /* TableView Floating */,
+				A31393FA2A8CE60A003B043F /* Assets.xcassets */,
+				A31393FC2A8CE60A003B043F /* LaunchScreen.storyboard */,
+				A31393FF2A8CE60A003B043F /* Info.plist */,
+			);
+			path = "Baby Sound";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A31393ED2A8CE607003B043F /* Baby Sound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A31394022A8CE60A003B043F /* Build configuration list for PBXNativeTarget "Baby Sound" */;
+			buildPhases = (
+				D95B9B0B256638ECA88567F6 /* [CP] Check Pods Manifest.lock */,
+				A31393EA2A8CE607003B043F /* Sources */,
+				A31393EB2A8CE607003B043F /* Frameworks */,
+				A31393EC2A8CE607003B043F /* Resources */,
+				90674BAC717C7D35D1C9CA40 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Baby Sound";
+			productName = "Baby Sound";
+			productReference = A31393EE2A8CE607003B043F /* Baby Sound.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A31393E62A8CE607003B043F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A31393ED2A8CE607003B043F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A31393E92A8CE607003B043F /* Build configuration list for PBXProject "Baby Sound" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A31393E52A8CE607003B043F;
+			productRefGroup = A31393EF2A8CE607003B043F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A31393ED2A8CE607003B043F /* Baby Sound */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A31393EC2A8CE607003B043F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31393FE2A8CE60A003B043F /* LaunchScreen.storyboard in Resources */,
+				A31393FB2A8CE60A003B043F /* Assets.xcassets in Resources */,
+				93778F242A94B3990079A920 /* 130718-baby.gif in Resources */,
+				A31393F92A8CE607003B043F /* Main.storyboard in Resources */,
+				939E02682A98BDE00031BAEE /* animation_llqgjsmq.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90674BAC717C7D35D1C9CA40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baby Sound/Pods-Baby Sound-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baby Sound/Pods-Baby Sound-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Baby Sound/Pods-Baby Sound-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95B9B0B256638ECA88567F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Baby Sound-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A31393EA2A8CE607003B043F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FAB0A92A93275A00402C14 /* FloatingOnTableViewController.swift in Sources */,
+				93587D9F2AA87CE60086E7FA /* BabySplashVC.swift in Sources */,
+				A31393F22A8CE607003B043F /* AppDelegate.swift in Sources */,
+				93FAB0AC2A93360E00402C14 /* ShowImageTableViewCell.swift in Sources */,
+				936607D42AB0311D002CD250 /* NotchTipsViewController.swift in Sources */,
+				9358AC762AAF067E004886C3 /* TestViewController.swift in Sources */,
+				A31393F42A8CE607003B043F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A31393F72A8CE607003B043F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31393F82A8CE607003B043F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A31393FC2A8CE60A003B043F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31393FD2A8CE60A003B043F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A31394002A8CE60A003B043F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A31394012A8CE60A003B043F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A31394032A8CE60A003B043F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159B4C74666D9A8213FD9A03 /* Pods-Baby Sound.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV9QVVQQGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Baby Sound/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.darshan1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A31394042A8CE60A003B043F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337F394D525D69C460B70355 /* Pods-Baby Sound.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV9QVVQQGB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Baby Sound/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.darshan1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A31393E92A8CE607003B043F /* Build configuration list for PBXProject "Baby Sound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31394002A8CE60A003B043F /* Debug */,
+				A31394012A8CE60A003B043F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A31394022A8CE60A003B043F /* Build configuration list for PBXNativeTarget "Baby Sound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31394032A8CE60A003B043F /* Debug */,
+				A31394042A8CE60A003B043F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A31393E62A8CE607003B043F /* Project object */;
+}
